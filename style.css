@@ -1,0 +1,298 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	height: 1700px;	
+	background-color: #c1e1ec;
+	
+}
+ul {
+  list-style-type: none;
+}
+
+h1{	
+	font-size: 30px;
+	color: black;
+	position: absolute;
+	top: 40%; 
+	left: 3%;	
+}
+h2{	
+	font-size: 50px;
+	color: black;
+	position: absolute;
+	top: 45%; 
+	left: 5%;	
+}
+h3{	
+	font-size: 30px;
+	color: #4ba9c8;
+	position: absolute;
+	top: 57%; 
+	left: 5%;	
+}
+h4{	
+	
+	font-size: 50px;
+	color: black;
+	z-index: 1;
+	position: absolute;
+	top: 113%; 
+	left: 1%;	
+}
+h5{	
+	font-size: 50px;
+	color: #4ba9c8;
+	position: absolute;
+	top: 170%; 
+	left: 40%;	
+}
+h6{	
+	font-size: 50px;
+	color: black;
+	position: absolute;
+	top: 10%; 
+	left: 5%;	
+}
+
+.topOfPage{
+	font-size: 3px;
+	position: absolute;
+	top: 1%;
+	left: 2%
+}
+.aboutMeLink{
+	font-size: 2px;
+	color: #4ba9c8;
+	position: absolute;
+	top: 80%; 
+	left: 10%;	
+}
+.portfolio{
+	font-size: 40px;
+	position: absolute;
+	top: -50%;
+	left: 2%;
+	color: #4ba9c8;
+	 
+}
+.navigationLinks{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	height: 10%;
+	width: 25%;
+	
+}
+.navigationBar{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10%;	
+	width: 77%;
+}
+
+nav {
+	
+	position: fixed;
+  display: flex;
+  background-color: white;
+   padding-left: 20%;
+ 
+}
+.rect1{
+	position: absolute;
+	left: -3%;
+	top: 100%;
+	width: 1250px;
+	height: 10px;
+	#border-width:0;
+    background-color: #adbce6;	
+}
+.rect2{
+	position: absolute;
+	left: -3%;
+	top: 157%;
+	width: 1250px;
+	height: 10px;
+	#border-width:0;
+    background-color: #adbce6;	
+}
+
+.circle {
+	z-index: -1;
+	position: absolute;
+	left: -10%;
+	top: 100%;
+	width: 350px;
+	height: 350px;
+	background: #adbce6;
+	border-radius: 50%
+}
+.layout1{
+	font-size: 22px;
+	position: absolute;
+	display: flex;
+	top: 103%;
+	left: 20%;
+	
+}
+.resumeButton{
+	
+	position: absolute;
+	display: flex;
+	top: 140%;
+	left: 5%;
+
+	
+	color: black;
+	
+	
+	
+}
+.emailLogo{
+	display : flex;	
+	position: absolute;
+	top: 200%;
+	left: 5%;
+	width: 55px;
+	height: 55px;	
+}
+.emailLink{
+	display : flex;	
+	position: absolute;
+	font-size: 20px;
+	top: 203%;
+	left: 10%;	
+}
+
+.linkedInLogo{
+	display : flex;	
+	position: absolute;
+	top: 200%;
+	left: 40%;
+	width: 55px;
+	height: 55px;	
+}
+.gitHubLogo{
+	display : flex;	
+	position: absolute;
+	top: 200%;
+	left: 65%;
+	width: 55px;
+	height: 55px;	
+}
+
+.linkedInLink{
+	display : flex;	
+	position: absolute;
+	font-size: 20px;
+	top: 203%;
+	left: 45%;
+	
+}
+.gitHubLink{
+	display : flex;	
+	position: absolute;
+	font-size: 20px;
+	top: 203%;
+	left: 70%;
+	
+}
+
+.project1Num{
+	font-size: 50px;
+	color: #2e8098;
+	position: absolute;
+	top: 50%; 
+	left: 5%;
+	
+}
+.project2Num{
+	font-size: 50px;
+	color: #2e8098;
+	position: absolute;
+	top: 100%; 
+	left: 5%;
+	
+}
+.project3Num{
+	font-size: 50px;
+	color: #2e8098;
+	position: absolute;
+	top: 150%; 
+	left: 5%;
+	
+}
+.project1Name{
+	font-size: 30px;
+	color: #2e8098;
+	position: absolute;
+	top: 50%; 
+	left: 10%;
+	
+	
+}
+.project1Desc{
+	font-size: 20px;
+	color: black;
+	position: absolute;
+	top: 60%; 
+	left: 10%;	
+	
+}
+.project1Img{
+	position: absolute;
+	top: 50%; 
+	left: 70%;
+	
+	
+}
+.project2Name{
+	font-size: 30px;
+	color: #2e8098;
+	position: absolute;
+	top: 100%; 
+	left: 10%;
+	
+	
+}
+.project2Desc{
+	font-size: 20px;
+	color: black;
+	position: absolute;
+	top: 110%; 
+	left: 10%;	
+	
+}
+.project2Img{
+	position: absolute;
+	top: 100%; 
+	left: 70%;	
+}
+
+.project3Name{
+	font-size: 30px;
+	color: #2e8098;
+	position: absolute;
+	top: 150%; 
+	left: 10%;
+	
+}
+.project3Desc{
+	font-size: 20px;
+	color: black;
+	position: absolute;
+	top: 160%; 
+	left: 10%;	
+	
+}
+.project3Img{
+	position: absolute;
+	top: 150%; 
+	left: 70%;	
+}
