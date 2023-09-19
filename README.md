@@ -1,5 +1,5 @@
 # Personal-Porfolio
-Link to porfolio: https://github.com/JahnaviPaladugu/Personal-Porfolio/blob/main/index.html 
+Link to porfolio: [https://github.com/JahnaviPaladugu/Personal-Porfolio/blob/main/index.html](https://github.com/JahnaviPaladugu/Personal-Porfolio.git) 
 
 Outline of the project: Personal portfolio that contains an introduction, highlights my experience and skills, has links for contacts and displays personal projects that I have done/currently working on. 
 
